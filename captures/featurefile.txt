@@ -15,3 +15,6 @@ min=T[i];
 }
 return min ;
 }
+void compare (int T[], int n) {
+printf("le maximum est %d \n",findmax(T,n));
+printf("le maximum est %d \n",findmin(T,n));
